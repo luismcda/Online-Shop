@@ -9,7 +9,7 @@ export const Navbar = () => {
         <Toolbar>
             <NextLink href='/' passHref>
                 <Link display='flex' alignItems='center'>
-                    <Typography variant='h6'>LAM |</Typography>
+                    <Typography variant='h6'>Luis |</Typography>
                     <Typography sx={{ ml: 0.5 }}>Shop</Typography>
                 </Link>  
             </NextLink>
@@ -44,7 +44,7 @@ export const Navbar = () => {
             <NextLink href="/cart" passHref>
                 <Link>
                     <IconButton>
-                        <Badge badgeContent={ 2 } color="secondary">
+                        <Badge badgeContent={ 3 } color="error">
                             <ShoppingCartOutlined />
                         </Badge>
                     </IconButton>
